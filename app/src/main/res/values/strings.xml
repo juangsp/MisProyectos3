@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MisProyectos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_google_json">GoogleJSON</string>
+    <string name="empty_text">No items to display!</string>
+    <string name="no_connection_message">Network is unaviable!</string>
+    <string name="search">search</string>
+    <string name="hint_search">write a term to search</string>
+    <string name="title_activity_actividad__intent_1">Actividad_Intent_1</string>
+    <string name="title_activity_actividad__intent_1_2">Actividad_Intent_1_2</string>
+    <string name="title_activity_practica_assets">PracticaAssets</string>
+    <string name="title_activity_memoria_externa">MemoriaExterna</string>
+    <string name="guardar">Guardar</string>
+    <string name="cargar">Cargar</string>
+    <string name="texto">Añade un texto para guardar</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.tessier.carlos.misproyectos" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+<application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GoogleJSON"
+            android:label="@string/title_activity_google_json" >
+        </activity>
+        <activity
+            android:name=".Actividad_Intent_1"
+            android:label="@string/title_activity_actividad__intent_1" >
+        </activity>
+        <activity
+            android:name=".Actividad_Intent_1_2"
+            android:label="@string/title_activity_actividad__intent_1_2"
+            android:parentActivityName=".Actividad_Intent_1" >
+        </activity>
+        <activity
+            android:name=".PracticaAssets"
+            android:label="@string/title_activity_practica_assets" >
+        </activity>
+        <activity
+            android:name=".MemoriaInterna"
+            android:label="@string/title_activity_memoria_externa" >
+        </activity>
+        <activity
+            android:name=".MemoriaExterna"
+            android:label="@string/title_activity_memoria_externa" >
+        </activity>
+    </application>
+
+</manifest>
